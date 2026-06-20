@@ -58,10 +58,10 @@
       // |       |  =  |  -  |  +   |  {   |  }   |        |  |       |  [   |  ]    |  ;    |  :   |   \   |       |
       //               |     |      |      |      |        |  |       |      |       |       |      |
       bindings = <
-        &kp F1    &kp F2    &kp F3    &kp F4      &kp F5    &kp F6                    &kp F7   &kp F8    &kp F9    &kp F10   &kp F11   &kp F12
-        &trans    &trans    &trans    &trans      &trans    &trans                    &trans    &kp N7   &kp N8    &kp N9    &trans    &trans
-        &trans    &kp LSHFT &kp LCTRL &kp LALT    &kp LGUI  &trans                    &trans    &kp N4   &kp N5    &kp N6    &trans    &trans
-        LC(LEFT)  &trans    &trans    &trans      &trans    &trans   &trans &trans    &trans    &kp N1   &kp N2    &kp N3    &trans    LC(RIGHT)
+        &kp F1       &kp F2    &kp F3    &kp F4      &kp F5    &kp F6                    &kp F7    &kp F8   &kp F9    &kp F10   &kp F11   &kp F12
+        &trans       &trans    &trans    &trans      &trans    &trans                    &trans    &kp N7   &kp N8    &kp N9    &trans    &trans
+        &trans       &kp LSHFT &kp LCTRL &kp LALT    &kp LGUI  &trans                    &trans    &kp N4   &kp N5    &kp N6    &trans    &trans
+        &kp LC(LEFT) &trans    &trans    &trans      &trans    &trans   &trans &trans    &trans    &kp N1   &kp N2    &kp N3    &trans    &kp LC(RIGHT)
                            &trans    &trans    &trans      &trans    &trans &trans     &trans   &trans    &trans    &trans
       >;
 
