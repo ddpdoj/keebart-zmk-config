@@ -17,6 +17,6 @@
 
 / {
     chosen {
-        zephyr,display = &nice_view;
+        zephyr,display = &st7789;
     };
 };
