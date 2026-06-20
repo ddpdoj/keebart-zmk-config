@@ -1,9 +1,16 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+#include <dt-bindings/gpio/gpio.h>
+
+#include "sofle_choc_pro-layouts.dtsi"
+
+&default_layout {
+    transform = <&default_transform>;
+};
 
 / {
     chosen {
         zmk,kscan = &mock_kscan;
-        zmk,matrix_transform = &default_transform;
+        zmk,physical-layout = &default_layout;
     };
 
     mock_kscan: mock_kscan_0 {
