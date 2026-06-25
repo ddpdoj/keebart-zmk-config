@@ -1,6 +1,16 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
+if BOARD_SOFLE_CHOC_PRO_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "Sofle Choc Pro"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # BOARD_SOFLE_CHOC_PRO_LEFT
+
 if BOARD_SOFLE_CHOC_PRO_LEFT || BOARD_SOFLE_CHOC_PRO_RIGHT 
 
 config BOARD
